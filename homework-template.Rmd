@@ -1,0 +1,16 @@
+---
+title: "Homework Template"
+author: "Last, First"
+date: "`r date()`"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Template
+
+```{r}
+hist(rnorm(1000))
+```
