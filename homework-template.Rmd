@@ -12,5 +12,5 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Template
 
 ```{r}
-hist(rnorm(1000))
+hist(rgamma(1000, shape=1, rate=1))
 ```
